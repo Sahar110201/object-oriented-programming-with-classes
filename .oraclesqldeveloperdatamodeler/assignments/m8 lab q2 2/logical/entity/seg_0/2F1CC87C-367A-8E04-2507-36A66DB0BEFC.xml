@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F1CC87C-367A-8E04-2507-36A66DB0BEFC" name="STAFF(STF)">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:51:16 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A76B9DFD-FEB1-2FD6-63D3-084CBF28C543">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:51:38 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="14463373-40E1-337E-5990-54CA1B3CA9CA">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:52:01 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="E60EF165-4BB3-5032-515A-B3AEB27463C9">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:52:26 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dob" id="EF277011-38D2-CAD9-3AF4-3FA52C9F3C2E">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:52:38 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="BA3C752F-C3FE-52B9-31AD-AA1F7DD15FBD">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:52:58 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="superviser_id" id="33F2CF79-5E21-B1FD-9BA5-C56F8C8FF5DB">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:53:26 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5C1711D-8F07-3769-5AF8-92EB9CC1207A" name="STAFF(STF) PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:51:59 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<engineerTo>
+<item key="139A9085-5A25-B174-90D4-CBF95A2BB48E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A76B9DFD-FEB1-2FD6-63D3-084CBF28C543</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

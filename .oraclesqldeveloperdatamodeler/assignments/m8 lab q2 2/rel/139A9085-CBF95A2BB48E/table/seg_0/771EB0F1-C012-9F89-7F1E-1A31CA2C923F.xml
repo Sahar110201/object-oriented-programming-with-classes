@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="771EB0F1-C012-9F89-7F1E-1A31CA2C923F" name="COOK(COK)">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:56:18 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BB59BC2D-FA14-A165-FAAA-E446EB8A77C9">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:00:28 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="6DFCAFAA-AEC9-078C-2791-D7782BD30D34">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:14:13 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="99053600-0E74-1EC5-4CAE-31FC79B6408D">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:14:13 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dob" id="3B30ABAF-355D-C2A3-EE19-64E809D79059">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:14:13 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="20F4627F-FA0D-1784-A93F-F7E2815033F4">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:14:13 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="training" id="F7D5F6CC-2D00-BAE9-8439-B0F5AB0915F8">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:14:13 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="superviser_id" id="6020C24C-0231-6B89-56CB-FF7D235A823C">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:14:13 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18821AA9-9114-D92D-AC27-1D0DC6E0933C" name="COOK(COK)_PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:20:23 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB59BC2D-FA14-A165-FAAA-E446EB8A77C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

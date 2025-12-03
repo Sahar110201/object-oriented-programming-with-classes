@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80C8A032-9F83-89E0-1DD8-250B95E228E8" name="SALEAREA">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:04:03 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SaleAreaCode" id="97C3F0B0-8ED8-C4F9-A53D-2AA41C3D560B">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:04:30 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AreaName" id="C7860139-E93B-569A-F540-B25299860AD2">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:04:46 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TerritoryCode" id="ED523BAC-74A0-6BA1-BD1D-FAAAE1D2C7F6">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:05:11 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPersonID" id="7C58DF40-4D2B-0568-E4C4-5BDADE1502BD">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:05:34 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="9D34E3BA-5B4C-EC13-1048-E973B4CFAEFB">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:19:31 UTC</createdTime>
+<generatorID>73CA47FC-6F49-ED13-BFB0-21BB07CCB8DC</generatorID>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<referedAttribute>50B69C13-86C0-E0F3-034A-F6A8E372D105</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TerritoryCode1" id="723EDB35-A73B-CCE5-AD32-CAEE6183D7EB">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 21:05:13 UTC</createdTime>
+<generatorID>9CC40441-F749-87B0-72E9-A0C9C7DA70E1</generatorID>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<referedAttribute>FAD0DE69-45B8-CE5D-06E2-50E8A891C939</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C553172-3A4B-63F0-A410-A888A727A4F9" name="SALEAREA PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:04:45 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97C3F0B0-8ED8-C4F9-A53D-2AA41C3D560B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

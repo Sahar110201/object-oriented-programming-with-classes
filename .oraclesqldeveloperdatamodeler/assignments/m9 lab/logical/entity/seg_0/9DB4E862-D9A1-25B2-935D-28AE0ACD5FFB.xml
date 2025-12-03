@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DB4E862-D9A1-25B2-935D-28AE0ACD5FFB" name="Weather Day">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:34:20 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date_id" id="92AEAA8F-8BAB-DB11-6B09-D12611ED661D">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:34:45 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="545A2538-2B41-DF32-FBA5-FB8F421C059B">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:35:13 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temprature" id="157EA6AE-8A38-CEF6-DA42-4D03AB9776D0">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:35:22 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weather_type" id="C91FFEF3-971B-C6FF-D171-3E008F197CBA">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:35:47 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="humidity" id="028C921B-3C3D-A8ED-E7B5-6D731634B16B">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:36:08 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20531EBB-06BD-E478-CD86-D90E576AE54C" name="Weather Day PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:35:00 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92AEAA8F-8BAB-DB11-6B09-D12611ED661D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

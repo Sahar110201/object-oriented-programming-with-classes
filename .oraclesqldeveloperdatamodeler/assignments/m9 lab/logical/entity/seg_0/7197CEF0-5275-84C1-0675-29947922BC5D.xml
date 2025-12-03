@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7197CEF0-5275-84C1-0675-29947922BC5D" name="Speeding Ticket">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:31:03 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ticket_id" id="CD8A5224-3EBD-3F37-BEFA-39F2229380CE">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:31:27 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time" id="DF012FA9-2CE9-7781-0FB3-4DF5638B35A0">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:31:39 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="speed" id="C54D12AE-C268-D3D0-2A10-F5133BCB136F">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:31:54 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="19632ABE-C0F4-1CB9-654C-B5E9C749FC74">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:32:13 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="officer_id" id="9DBCDDC0-DEC6-3B25-3A47-98B0A2946733">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:32:22 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_id" id="E8CF610A-F643-0319-07D5-12956C91DADF">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:33:44 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_id1" id="8A70B1DA-055C-D533-B911-249059F1C284">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:40:55 UTC</createdTime>
+<generatorID>66C0BBB5-1C76-58D6-4D08-2E8F15771223</generatorID>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<referedAttribute>92AEAA8F-8BAB-DB11-6B09-D12611ED661D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C419E7D4-B215-A721-40AB-47EEB4A39988" name="Speeding Ticket PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-20 19:31:38 UTC</createdTime>
+<ownerDesignName>m9 lab</ownerDesignName>
+<engineerTo>
+<item key="33EA6EEC-D19C-2EAF-777D-300DED9B87BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD8A5224-3EBD-3F37-BEFA-39F2229380CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

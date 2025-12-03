@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="927AC71C-661A-E22A-1C49-39D81391BC0E" name="DISTRICT">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 17:59:45 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DistrictCode" id="AFAB2192-46A8-7D5B-060B-15EE3D7C5ED2">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:00:08 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DistrictName" id="1DDF8139-C0EA-038B-F0ED-A9E812606691">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:00:29 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegionCode" id="C6DBAA12-2A56-43CF-0FE8-BDAFB8F65145">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:00:54 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ManagerID" id="8DB5AAC2-78C8-3C55-343A-DD92EAEFE6E2">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:01:19 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegionCode1" id="C9F9433C-FC8D-8E22-4395-E23C16C40603">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:13:58 UTC</createdTime>
+<generatorID>40601DF7-69A7-2C89-63F5-9969C2C819CB</generatorID>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<referedAttribute>DF7D8212-8ACD-D508-91C6-03D4B7C5C446</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="D1B37333-D0E2-12F0-6433-A94965137B33">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:19:02 UTC</createdTime>
+<generatorID>C99AD32A-12CA-EE35-8F22-EACD01427AC5</generatorID>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<referedAttribute>50B69C13-86C0-E0F3-034A-F6A8E372D105</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73887903-EBF0-21D9-61CF-9796750A2E9D" name="DISTRICT PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-05 18:00:27 UTC</createdTime>
+<ownerDesignName>m7 lab</ownerDesignName>
+<engineerTo>
+<item key="6C878CAB-2BE8-EFBE-1393-82F7B300C674" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFAB2192-46A8-7D5B-060B-15EE3D7C5ED2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

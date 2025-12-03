@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C36A10B-4730-D2BB-0A1C-588FF99444FC" name="MANAGER(MAR)">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 18:57:18 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8BE3EC8B-CA14-0BA5-3370-988A18C6D041">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:04:10 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="54607CF5-689D-B081-ED68-7A8A28A50989">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:16:40 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="248E89B3-A181-8F1C-FA2B-8313FF10C5CC">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:16:40 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dob" id="1716F1D9-3745-973E-86E8-F4EDF082C0AE">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:16:40 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="C590A65A-EDE9-9FF1-ECD5-3A294C7FEE73">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:16:40 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="budget" id="84383931-39B6-A4F4-3923-D9FF1BF5B3EB">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:16:40 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="target_rev" id="52532967-089A-6E76-9502-DAA8C9A1D41F">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:16:40 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="superviser_id" id="C2CA8997-B2DB-5B6D-B3B9-CDD2A5DD0AC8">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:16:40 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6353A555-454D-A75A-F284-DA75A8BCE064" name="MANAGER(MAR)_PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:20:43 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BE3EC8B-CA14-0BA5-3370-988A18C6D041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

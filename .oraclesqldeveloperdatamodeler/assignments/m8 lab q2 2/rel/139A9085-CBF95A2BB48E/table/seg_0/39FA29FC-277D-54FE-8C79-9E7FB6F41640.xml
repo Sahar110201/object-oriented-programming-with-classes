@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39FA29FC-277D-54FE-8C79-9E7FB6F41640" name="OTHER(OTR)">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:04:16 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="78B6C33C-991A-063A-0F51-4E7AD904E897">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:04:37 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="43DDA0C8-4B6C-EA38-D724-FE332EBF84B3">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:18:34 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="A6AE1470-1123-C8CD-8B78-A3C2851636E3">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:18:34 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dob" id="163604D0-427B-95B2-2CD9-2136DEBE3082">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:18:34 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="B307CD74-3C8A-ACFE-6383-66B861356D14">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:18:34 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="superviser_id" id="ADE2ED80-1993-6584-5663-22A7966FE027">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:18:34 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4DE48FB-9A83-6412-C5F4-E150FF2489A4" name="OTHER(OTR)_PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-11-12 19:21:03 UTC</createdTime>
+<ownerDesignName>m8 lab q2 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78B6C33C-991A-063A-0F51-4E7AD904E897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
