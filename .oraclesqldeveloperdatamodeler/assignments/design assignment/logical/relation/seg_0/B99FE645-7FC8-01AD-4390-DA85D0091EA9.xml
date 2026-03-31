@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="B99FE645-7FC8-01AD-4390-DA85D0091EA9">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-04 02:12:25 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>be paid</nameOnSource>
+<nameOnTarget>belong tp</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>275063AF-AA5D-39D9-58FF-37280760CB50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CCBE0E27-14EE-32EB-49B0-0D1ACA0C39FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

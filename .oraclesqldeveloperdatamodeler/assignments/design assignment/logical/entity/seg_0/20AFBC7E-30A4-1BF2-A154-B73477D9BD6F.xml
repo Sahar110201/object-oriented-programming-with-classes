@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20AFBC7E-30A4-1BF2-A154-B73477D9BD6F" name="Customer">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:39:15 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerNumber" id="BDC21204-ACDF-96E8-3E52-094A2762413D">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:39:26 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="8C811C76-0166-7729-E958-1149B7DCE8AA">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:40:05 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="25699D82-1A3E-A6AE-CCB1-88158B9AE493">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:40:26 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateOfBirth" id="5C54F652-1459-7826-C178-C33500C99062">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:40:39 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StreetAddress" id="944F831A-C973-B7BC-0541-1F6ADE453A14">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:40:57 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="225EFF1A-D434-E85A-D638-39E7D6D47FD3">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:41:10 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip" id="9954F468-A5E7-0FF6-EB7A-EE5F6530D8CD">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:41:24 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="1F1469DF-C0DC-FC10-128E-A73B3C6048EC">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:41:44 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmailAddress" id="36EE2C0A-8515-CF9B-1B3F-8CF346C98B55">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:41:55 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6C81172-B770-FB57-1F6C-BF9B32660218" name="Customer PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-12-03 22:40:04 UTC</createdTime>
+<ownerDesignName>design assignment</ownerDesignName>
+<engineerTo>
+<item key="C5EB9663-48F9-3DED-2F36-813AD41AAF55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDC21204-ACDF-96E8-3E52-094A2762413D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
