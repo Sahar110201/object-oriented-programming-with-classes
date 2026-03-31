@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #888;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+input {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #888;
+  border-radius: 6px;
+  width: 200px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+.page-content {
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;      
+  min-height: 60vh;         
+  text-align: center;       
+  gap: 15px;                
+}
+
+label {
+  display: flex;
+  gap: 10px;              
+  margin: 5px 0;          
+}
